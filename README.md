@@ -22,7 +22,6 @@ The system will provide insights like:
 ---
 
 ## 💡 **Meet the Team:**
-- **Team Name:** ByteStorm
 - 👩‍💻 **Adi Maman**
 - 👨‍💻 **Tomer Shulman**
 

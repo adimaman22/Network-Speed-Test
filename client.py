@@ -185,6 +185,7 @@ def initiate_udp_test(server_ip, udp_port, file_size, udp_connections, transfer_
                 if time.time() - last_received_time > 1:
                     print(f"{WARNING_COLOR}No packets received for 1 second. Ending UDP transfer.{RESET_COLOR}")
                     break
+                time.sleep(0.01) # waiting to avoid busy-waiting
 
         end_time = time.time()
         success_rate = (received_segments / total_segment_count) * 100 if total_segment_count != 0 else 0
